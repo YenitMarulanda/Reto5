@@ -14,11 +14,11 @@ import co.usa.ciclo3.ciclo3.model.Cliente;
 public class CountCliente {
     
     private Long total;
-    private Cliente cliente;
+    private Cliente client;
 
-    public CountCliente(Long total, Cliente cliente) {
+    public CountCliente(Long total, Cliente client) {
         this.total = total;
-        this.cliente = cliente;
+        this.client = client;
     }
 
     public Long getTotal() {
@@ -29,13 +29,15 @@ public class CountCliente {
         this.total = total;
     }
 
-    public Cliente getCliente() {
-        return cliente;
+    public Cliente getClient() {
+        return client;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
+    public void setClient(Cliente client) {
+        this.client = client;
     }
+
+    
 
         
     
